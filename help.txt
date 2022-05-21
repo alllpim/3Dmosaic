@@ -1,0 +1,14 @@
+Команда для преобразования Qt UI файла в py файл:
+cmd /c "pyside6-uic MainWindow.ui > ui_mainwindow.py"
+
+
+Структура программы для конечного пользователя:
+/3DMosaic
+    3DMosaic.bat (command: .\Python\python.exe .\Program\main.pyw)
+    /Program (.py files)
+    /Setup (full_setup.bat, setup_if_python.bat, requirements.txt)
+    /Python (portable Python 3.10+)
+
+
+full_setup.bat - скачивает Python, устанавливает библиотеки
+setup_if_python.bat - устанавливает библиотеки, нужен установленный Python
